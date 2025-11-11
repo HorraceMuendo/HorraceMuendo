@@ -11,27 +11,31 @@
   <!-- Navigation -->
  <nav class="nav">
         <a href="#home" class="logo">
-            <svg width="40" height="40" viewBox="0 0 100 100" fill="none">
+            <!-- <svg width="40" height="40" viewBox="0 0 100 100" fill="none">
                 <rect width="100" height="100" fill="white" rx="8"/>
                 <path d="M30 30L50 50L30 70" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M70 30L50 50L70 70" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            </svg> -->
+             <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+        <path d="M4 4L10 12L4 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M20 4L14 12L20 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
         </a>
         
         <div class="nav-links">
-            <a href="#home" class="nav-link active">Home</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#services" class="nav-link">Services</a>
-        </div>
+    <a href="./index.html" class="nav-link">Home</a>
+    <a href="./index.html#about" class="nav-link">About</a>
+    <a href="./index.html#projects" class="nav-link">Projects</a>
+    <a href="./index.html#services" class="nav-link">Services</a>
+</div>
 
         <div class="nav-actions">
-            <button class="btn btn-primary">Let's Talk</button>
-            <button class="theme-toggle">
+          <a href="#LetsTalk"><button class="btn btn-primary">Let's Talk</button></a>
+            <!-- <button class="theme-toggle">
                 <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"/>
                 </svg>
-            </button>
+            </button> -->
         </div>
     </nav>
 
@@ -90,7 +94,53 @@
 </div>
 
 
-      <div class="section-header">
+
+<!-- <div class="service-card" 
+     style="width: 340px; text-align: center; padding: 2.5rem 1.5rem;">
+  <a href="mailto:horracemuendo34@gmail.com" style="text-decoration: none; color: inherit;">
+    <div class="service-icon" style="margin: 0 auto 1.5rem auto;">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M2 8.5v7A2.5 2.5 0 004.5 18H19.5A2.5 2.5 0 0022 15.5v-7A2.5 2.5 0 0019.5 6H4.5A2.5 2.5 0 002 8.5z" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M2 9l10 6 10-6" />
+      </svg>
+    </div>
+    <h3>Email</h3>
+    <p class="service-subtitle" style="font-size: 1rem;">horracemuendo34@gmail.com</p>
+  </a>
+</div>
+
+<div class="service-card" 
+     style="width: 340px; text-align: center; padding: 2.5rem 1.5rem;">
+  <a href="tel:+254729664004" style="text-decoration: none; color: inherit;">
+    <div class="service-icon" style="margin: 0 auto 1.5rem auto;">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M3 5.5A2.5 2.5 0 015.5 3h1A2.5 2.5 0 019 5.5V8A2.5 2.5 0 016.5 10.5H5A2.5 2.5 0 012.5 8V5.5zM15 5.5A2.5 2.5 0 0117.5 3h1A2.5 2.5 0 0121 5.5V8A2.5 2.5 0 0118.5 10.5H17A2.5 2.5 0 0114.5 8V5.5zM3 15.5A2.5 2.5 0 015.5 13h1A2.5 2.5 0 019 15.5V18A2.5 2.5 0 016.5 20.5H5A2.5 2.5 0 012.5 18V15.5zM15 15.5A2.5 2.5 0 0117.5 13h1A2.5 2.5 0 0121 15.5V18A2.5 2.5 0 0118.5 20.5H17A2.5 2.5 0 0114.5 18V15.5z" />
+      </svg>
+    </div>
+    <h3>Phone</h3>
+    <p class="service-subtitle" style="font-size: 1rem;">+254729664004</p>
+  </a>
+</div> -->
+
+<!-- <div class="service-card" 
+     style="width: 340px; text-align: center; padding: 2.5rem 1.5rem;">
+  <a href="https://www.google.com/maps/search/?api=1&query=Nairobi,+Kenya" target="_blank" style="text-decoration: none; color: inherit;">
+    <div class="service-icon" style="margin: 0 auto 1.5rem auto;">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M12 2C8.13401 2 5 5.13401 5 9C5 13.4183 9 18 12 22C15 18 19 13.4183 19 9C19 5.13401 15.866 2 12 2z" />
+        <circle cx="12" cy="9" r="2.5" />
+      </svg>
+    </div>
+    <h3>Location</h3>
+    <p class="service-subtitle" style="font-size: 1rem;">Nairobi, Kenya</p>
+  </a>
+</div> -->
+
+     <div class="section-header" id="LetsTalk">
         <p class="section-label">Connect</p>
         <h2>What's on Your Mind?</h2>
         <p class="section-description">
@@ -121,5 +171,8 @@
     <h3>Horrace Muendo</h3>
     <p>© 2025 Crafted with care. All rights reserved.</p>
   </footer>
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+<script src="./JS/script.js"></script>
+
 </body>
 </html>
